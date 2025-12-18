@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo app</title>
+</head>
+<body>
+    <header>
+        <div class="header-h1">
+            <h1>TODO</h1>
+        </div>
+        <div class="todo-starter">
+            <form action="submit" method="post" class="form" id="starterTask">
+                <input type="text" id="createNewTodo" placeholder="Create a new todo..." />
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="todo-list">
+            <ul class="ul-todo-list"></ul>
+        </div>
+        <div class="todo-condition">
+            <div class="todo-count">
+                <p class="todo-list-count">0 items left</p>
+            </div>
+            <div class="todo-condition-buttons">
+                <button class="all-todo">All</button>
+                <button class="active-todo">Active</button>
+                <button class="completed-todo">Completed</button>
+            </div>
+            <button class="clear-completed">Clear completed</button>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
