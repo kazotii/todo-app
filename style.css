@@ -7,20 +7,20 @@
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('./fonts/JosefinSans-Regular.ttf') format('woff2');
+  src: url('JosefinSans-Regular.ttf') format('woff2');
   font-weight: 400;
   font-style: regular;
 }
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('./fonts/JosefinSans-Bold.ttf') format('woff2');
+  src: url('JosefinSans-Bold.ttf') format('woff2');
   font-weight: 700;
   font-style: bold;
 }
 
 body{
-    background-image: url('./images/backgroung-image-todo.jpg');
+    background-image: url('backgroung-image-todo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -288,5 +288,4 @@ h1{
 .clear-completed{
     margin-right: 5px;
 }
-
 }
