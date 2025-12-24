@@ -255,17 +255,24 @@ span{
     box-sizing: border-box;
 }
 
+body{
+    min-height: 100vh;
+}
+
 #createNewTodo{
     width: 340px;
 }
 
 #starterTask{
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+h1{
+    margin-left: 15px;
 }
 
 main{
     width: 340px;
-    margin-right: 20px;
 }
 
 .li-todo-list{
@@ -287,5 +294,11 @@ h1{
 
 .clear-completed{
     margin-right: 5px;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 }
